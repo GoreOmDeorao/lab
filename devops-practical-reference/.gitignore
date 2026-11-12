@@ -1,0 +1,25 @@
+# Terraform local working data
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+terraform.tfvars
+*.auto.tfvars
+
+# Credentials and private keys
+.env
+.env.*
+*.pem
+*.ppk
+id_rsa
+id_ed25519
+
+# Local build/runtime artifacts
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.tar
+*.sif
